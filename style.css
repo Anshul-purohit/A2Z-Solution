@@ -1,0 +1,64 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    font-size: larger;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(164, 216, 210);
+}
+
+
+
+/* ************************************** */
+
+.blog{
+    position: relative;
+    margin-top: 50px;
+}
+
+.fourthYear{
+    margin: auto;
+    text-align: center;
+    border:1px solid;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.firstYear{
+    margin: auto;
+    text-align: center;
+    border:1px solid;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.roadmap{
+    height: 300px;
+}
+
+.secondYear{
+    margin: auto;
+    text-align: center;
+    border:1px solid;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.thirdYear{
+    margin: auto;
+    text-align: center;
+    border:1px solid;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.yearBox{
+    position: relative;
+    margin-top: 100px;
+}
