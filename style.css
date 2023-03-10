@@ -20,6 +20,7 @@ body{
 .blog{
     position: relative;
     margin-top: 50px;
+    margin-right: 0;
 }
 
 .fourthYear{
@@ -61,4 +62,5 @@ body{
 .yearBox{
     position: relative;
     margin-top: 100px;
+    margin-right: 0;
 }
