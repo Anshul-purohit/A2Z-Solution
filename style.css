@@ -13,7 +13,15 @@ body{
     background-color: rgb(164, 216, 210);
 }
 
-
+img{
+    display: block; 
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom: 50px; */
+    /* width: 50%; */
+}
 
 /* ************************************** */
 
@@ -21,6 +29,11 @@ body{
     position: relative;
     margin-top: 50px;
     margin-right: 0;
+}
+
+#footer{
+    padding: 5% 10%;
+    text-align: center;
 }
 
 .fourthYear{
@@ -39,8 +52,19 @@ body{
     margin-bottom: 50px;
 }
 
+/* .gateImg{
+    position: absolute;
+} */
+
+.guidance{
+    padding-top: 100px;;
+    text-align: center;
+    height: 500px;
+}
+
 .roadmap{
-    height: 300px;
+    height: 350px;
+    text-align: center;
 }
 
 .secondYear{
@@ -49,6 +73,10 @@ body{
     border:1px solid;
     width: 50%;
     margin-bottom: 50px;
+}
+
+.social-icon{
+    margin: 20px 10px;
 }
 
 .thirdYear{
@@ -63,4 +91,25 @@ body{
     position: relative;
     margin-top: 100px;
     margin-right: 0;
+}
+
+/* ************************************* */
+
+#t{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.testimonial-image{
+    height: 10%;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.x{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
