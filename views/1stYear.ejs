@@ -1,0 +1,32 @@
+<%- include("partials/header") %>
+
+<% if(authenticated === false){ %>
+    <li class="nav-item">
+        <a class="nav-link" href="/signup">Sign Up</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/signin">Sign In</a>
+    </li>
+<% }  %>
+</ul>
+</div>
+</nav>
+
+    <div class="row yearBox">
+        <div class="col-lg-6 col-md-6">
+            <h1 class="firstYear x"><a href="/1stSem" target="_blank">1<sup>st </sup>SEM</a></h1>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <h1 class="firstYear x"><a href="/2ndSem" target="_blank">2<sup>nd </sup>SEM</a></h1>
+        </div>
+    </div>
+    
+    <div class="guidance">
+        <h1>General Guidance for 1<sup>st</sup>Year</h1>
+      </div>
+
+
+      <!-- ****************** Footer ********************* -->
+
+
+      <%- include("partials/footer") %>

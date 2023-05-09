@@ -1,0 +1,65 @@
+<%- include("partials/header") %>
+
+<% if(authenticated === false){ %>
+    <li class="nav-item">
+        <a class="nav-link" href="/signup">Sign Up</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/signin">Sign In</a>
+    </li>
+<% }  %>
+</ul>
+</div>
+</nav>
+
+    <!-- ************** Year Data *************** -->
+
+    <div class="row yearBox">
+        <div class="col-lg-12" style="background-color:rgb(164, 216, 210);">
+            <h1 class="firstYear"><a href="/1stYear" target="_blank">1<SUP>st</SUP> Year</a></h1>
+        </div>
+        <div class="col-lg-12" style="background-color:rgb(164, 216, 210);">
+            <h1 class="secondYear"><a href="/2ndYear" target="_blank">2<SUP>nd</SUP> Year</a></h1>
+        </div>
+        <div class="col-lg-12" style="background-color:rgb(164, 216, 210);">
+            <h1 class="thirdYear"><a href="/3rdYear" target="_blank">3<SUP>rd</SUP> Year</a></h1>
+        </div>
+        <div class="col-lg-12" style="background-color:rgb(164, 216, 210);">
+            <h1 class="fourthYear"><a href="/4thYear" target="_blank">4<SUP>th</SUP> Year</a></h1>
+        </div>
+    </div>
+
+    <!-- *************** Roadmap **************** -->
+
+    <div class="row blog">
+        <div class="col-lg-3 col-sm-6 col-12 roadmap">
+            <img src="images/maang.webp" alt="">
+            
+            <a href="/PBC" target="_blank">Roadmap for Product based Company(MAANG)</a> 
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 roadmap">
+            <img class="gateImg" src="images/gate.webp" alt="">
+            <a href="/gate" target="_blank">Roadmap for GATE</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 roadmap">
+            <img src="images/cp.png" alt="">
+            <a href="/cp" target="_blank">Roadmap for Competitive Programming</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-12 roadmap">
+            <!-- <img src="images/dev.jpeg" alt=""> -->
+            <img src="images/dev2.png" alt="">
+            <a href="/dev" target="_blank">Roadmap for Development</a>
+        </div>
+    </div>
+
+    <!-- ********************* Guidance ******************** -->
+
+    <div id="aboutUs" class="guidance">
+      <h1>About Us</h1>
+    </div>
+
+
+    <!-- ****************** Footer ********************* -->
+
+
+    <%- include("partials/footer") %>
