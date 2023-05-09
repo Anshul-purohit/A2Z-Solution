@@ -52,10 +52,6 @@ img{
     margin-bottom: 50px;
 }
 
-/* .gateImg{
-    position: absolute;
-} */
-
 .guidance{
     padding-top: 100px;;
     text-align: center;
@@ -65,6 +61,16 @@ img{
 .roadmap{
     height: 350px;
     text-align: center;
+}
+
+.roadmapInner{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    margin-top: 100px;
 }
 
 .secondYear{
@@ -79,6 +85,12 @@ img{
     margin: 20px 10px;
 }
 
+.semBox{
+    position: relative;
+    margin-top: 100px;
+    margin-right: 0;
+}
+
 .thirdYear{
     margin: auto;
     text-align: center;
@@ -89,7 +101,7 @@ img{
 
 .yearBox{
     position: relative;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-right: 0;
 }
 
