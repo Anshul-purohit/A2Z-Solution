@@ -53,9 +53,20 @@ img{
 }
 
 .guidance{
+    /* margin: auto;
+    width: 100%; */
     padding-top: 100px;;
     text-align: center;
-    height: 500px;
+    height: 800px;
+   
+}
+
+.quote{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .roadmap{
