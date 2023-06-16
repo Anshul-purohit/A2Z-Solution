@@ -196,10 +196,10 @@ app.post("/signup", function(req, res){
     User.register({username: req.body.username}, req.body.password, function(err, user){
         if (err) {
             console.log(err);
-            res.redirect("/failure-signup");
+            res.redirect("/");
         } else {
             passport.authenticate("local")(req, res, function(){
-                res.redirect("/successfull-signup");
+                res.redirect("/");
             });
         }
     });
@@ -213,11 +213,10 @@ app.post("/signin", function(req, res){
     
       req.login(user, function(err){
         if (err) {
-          console.log(err);
-          res.redirect("/failure-signin");
+          res.redirect("/");
         } else {
           passport.authenticate("local")(req, res, function(){
-            res.redirect("/successfull-signin");
+            res.redirect("/");
           });
         }
       });
