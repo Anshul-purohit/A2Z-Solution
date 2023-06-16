@@ -176,26 +176,9 @@ app.get("/signin", function(req, res){
     res.render("signin");
 });
 
-app.get("/successfull-signin", function(req, res){
-    res.render("successfull-signin");
-});
-
-app.get("/failure-signin", function(req, res){
-    res.render("failure-signin");
-});
-
-app.get("/successfull-signup", function(req, res){
-    res.render("successfull-signup");
-});
-
-app.get("/failure-signup", function(req, res){
-    res.render("failure-signup");
-});
-
 app.post("/signup", function(req, res){
     User.register({username: req.body.username}, req.body.password, function(err, user){
         if (err) {
-            console.log(err);
             res.redirect("/");
         } else {
             passport.authenticate("local")(req, res, function(){
@@ -220,22 +203,6 @@ app.post("/signin", function(req, res){
           });
         }
       });
-});
-
-app.post("/successfull-signin", function(req, res){
-    res.redirect("/");
-});
-
-app.post("/failure-signin", function(req, res){
-    res.redirect("/signin");
-});
-
-app.post("/successfull-signup", function(req, res){
-    res.redirect("/");
-});
-
-app.post("/failure-signup", function(req, res){
-    res.redirect("/signup");
 });
 
 app.listen(3000, function(){
