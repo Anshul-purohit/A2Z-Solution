@@ -1,6 +1,6 @@
 # A2Z-Solution
 
-This is a website for Doon Institute of Engineering and Technology's CSE department Students.
+We made this website for our college CSE department Students.
 
 Students will get following things of all semesters from this website in an organised and structured way :-
 
@@ -28,7 +28,7 @@ Following are the features of our website :-
 
 (1) Responsive
 
-(2) Signup / Signin 
+(2) Signup/Signin 
 
 (3) Contribute Material for Website
 
